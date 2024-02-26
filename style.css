@@ -66,6 +66,7 @@ a {
 .main-h2 {
     color: var(--hero-color);
     font-size: var(--hero-font-size);
+    font-weight: bolder;
 }
 
 .main-text {
@@ -98,4 +99,40 @@ a {
     align-items: center;
     margin: 30px;
     height: 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-img {
+    display: flex;
+    max-width: 600px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-h2 {
+    margin-bottom: 32px;
+}
+
+.info-element {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+}
+
+.element-img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--button-bg);
+    border-radius: 10px;
+    margin-bottom: 8px;
 }
